@@ -19,7 +19,7 @@ The whole project uses PIL and numpy.
 
 `blockpixel.py` is the main program. It takes up to five arguments and the image file to convert. The options it takes are:
 
--`-t value` for changing the threshold and get a more detailed image.
--`-m value` for changing the minimum size the pixels can take.
--`-v` for verbose mode.
--`-V` for visualization of the animation.
+* `-t value` for changing the threshold and get a more detailed image.
+- `-m value` for changing the minimum size the pixels can take.
+- `-v` for verbose mode.
+- `-V` for visualization of the animation.
