@@ -3,7 +3,6 @@ from misc import *
 init_globals()
 import numpy
 from sys import argv,exit,stdout
-from visualizer import Pantalla
 from math import log,ceil
 from codec import *
 
@@ -31,6 +30,7 @@ if __name__=='__main__':
 	imgfile=argv[-1]
 	img=Image.open(imgfile)
         if visualize:
+            from visualizer import Pantalla
             screen = Pantalla(img.size[0],img.size[1])
 	imgarray=numpy.array(img)
 	
