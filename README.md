@@ -5,7 +5,7 @@ The image is analised as candidate for a single big pixel using the variance of 
 
 The project contains five files: `blockpixel.py`, `codec.py`, `misc.py`, `visualizer.py` and `viewer.py`.
 
-`codec.py` contains the functions used to write a compressed image into a file (e.g. `encode\_file()`), 
+`codec.py` contains the functions used to write a compressed image into a file (e.g. `encode_file()`), 
 to read the file and get the pixels that make the image (e.g. function `decode_file()`),
 and to transform that list of big pixels into a string image (e.g. function `to_string()`).
 
@@ -18,7 +18,7 @@ and to transform that list of big pixels into a string image (e.g. function `to_
 The whole project uses PIL and numpy.
 
 `blockpixel.py` is the main program. It takes up to five arguments and the image file to convert. The options it takes are:
-+`-t value` for changing the threshold and get a more detailed image.
-+`-m value` for changing the minimum size the pixels can take.
-+`-v` for verbose mode.
-+`-V` for visualization of the animation.
+-`-t value` for changing the threshold and get a more detailed image.
+-`-m value` for changing the minimum size the pixels can take.
+-`-v` for verbose mode.
+-`-V` for visualization of the animation.
